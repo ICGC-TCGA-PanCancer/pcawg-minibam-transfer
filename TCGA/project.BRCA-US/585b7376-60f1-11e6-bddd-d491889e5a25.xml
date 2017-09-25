@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<ResultSet>
+  <Query>analysis_id:585b7376-60f1-11e6-bddd-d491889e5a25</Query>
+  <Hits>1</Hits>
+  <Result id="1">
+    <analysis_id>585b7376-60f1-11e6-bddd-d491889e5a25</analysis_id>
+    <state>live</state>
+    <reason/>
+    <last_modified>2017-07-22T22:43:02Z</last_modified>
+    <upload_date>2017-07-22T22:37:36Z</upload_date>
+    <published_date>2017-07-22T22:43:02Z</published_date>
+    <center_name>UCSC</center_name>
+    <study>tcga_pancancer_vcf</study>
+    <aliquot_id>97064332-1d4f-4571-93ff-354ffe6d7df9</aliquot_id>
+    <files>
+      <file>
+        <filename>PCAWG.b43c9b79-be36-496a-8fa0-29ecdfa2d315_minibam.bam</filename>
+        <filesize>752708444</filesize>
+        <checksum type="MD5">b6874baafd1ecd7ced9dd46a7ea129a5</checksum>
+      </file>
+      <file>
+        <filename>PCAWG.b43c9b79-be36-496a-8fa0-29ecdfa2d315_minibam.bam.bai</filename>
+        <filesize>4573128</filesize>
+        <checksum type="MD5">9d58c614777756a900142752c8fd8cc5</checksum>
+      </file>
+      <file>
+        <filename>PCAWG.04d09fee-cfda-4d8a-80fe-9ad96d8fefb2_minibam.bam</filename>
+        <filesize>643402803</filesize>
+        <checksum type="MD5">8f7da64e693b4417178c300624a07bd9</checksum>
+      </file>
+      <file>
+        <filename>PCAWG.04d09fee-cfda-4d8a-80fe-9ad96d8fefb2_minibam.bam.bai</filename>
+        <filesize>5188200</filesize>
+        <checksum type="MD5">7e0f163182cb9a44a933e351546aaa25</checksum>
+      </file>
+    </files>
+    <sample_accession/>
+    <legacy_sample_id/>
+    <disease_abbr>BRCA-US</disease_abbr>
+    <tss_id/>
+    <participant_id>6956473b-92e5-4069-a26b-b48e280e76f2</participant_id>
+    <sample_id/>
+    <analyte_code/>
+    <sample_type/>
+    <library_strategy/>
+    <platform/>
+    <refassem_short_name>GRCh37</refassem_short_name>
+    <analysis_xml>
+      <ANALYSIS_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5/SRA.analysis.xsd?view=co">
+        <ANALYSIS center_name="UCSC" analysis_center="OICR" analysis_date="2016-08-13T01:00:44">
+          <TITLE>TCGA/ICGC PanCancer Donor-Level Variant Calling for Participant 6956473b-92e5-4069-a26b-b48e280e76f2</TITLE>
+          <STUDY_REF refcenter="TCGA" refname="tcga_pancancer_vcf"/>
+          <DESCRIPTION>These are minibams created for donor 6956473b-92e5-4069-a26b-b48e280e76f2 by extracing from WG BAMs reads around variants called by any of the core variant calling workflows.
+Specifically, the window sizes are SNV+/-10bp, indel+/-200bp, SV+/-500bp.
+The results consist of one or more BAM files plus optional tar.gz files that contain additional file types.
+This uses the OxoGWrapper workflow, version 3.0.2 available at https://github.com/ICGC-TCGA-PanCancer/OxoGWrapperWorkflow/.
+This workflow can be created from source, see https://github.com/ICGC-TCGA-PanCancer/OxoGWrapperWorkflow/.
+For a complete change log see https://github.com/ICGC-TCGA-PanCancer/OxoGWrapperWorkflow/CHANGELOG.md.
+Note the 'ANALYSIS_TYPE' is 'REFERENCE_ASSEMBLY' but a better term to describe this analysis is 'SEQUENCE_VARIATION' as defined by the EGA's SRA 1.5 schema.
+Please note the reference used for alignment was hs37d, see ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/README_human_reference_20110707 for more information.
+Briefly this is the integrated reference sequence from the GRCh37 primary assembly (chromosomal plus unlocalized and unplaced contigs),
+the rCRS mitochondrial sequence (AC:NC_012920), Human herpesvirus 4 type 1 (AC:NC_007605) and the concatenated decoy sequences (hs37d5cs.fa.gz).
+Variant calls may not be present for all contigs in this reference.
+</DESCRIPTION>
+          <ANALYSIS_TYPE>
+            <REFERENCE_ALIGNMENT>
+              <ASSEMBLY>
+                <STANDARD short_name="GRCh37"/>
+              </ASSEMBLY>
+              <RUN_LABELS>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2876982232" refname="9406d23c-09d4-4576-a2f9-547b51eaf408" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2876982233" refname="283cbfe5-e6c1-4215-8e0e-bc263825a87e" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877000538" refname="d7544af9-5566-4c0a-b97d-d36047311a5d" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877003085" refname="d95cd783-1bee-4f8a-8a82-18b5e0951bf7" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877004181" refname="3785945e-20f7-4180-a5aa-062e06a496d2" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877005451" refname="dfaa1694-4f4e-4ccb-a5f6-1ffcb0dfbbad" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877010289" refname="da41acdd-4d6c-42f1-b38d-e51d50ff2aed" refcenter="UCSC"/>
+                <RUN data_block_name="B0B4WABXX" read_group_label="2877014293" refname="1f5f1767-589c-4e41-b4d0-4cd5030665c6" refcenter="UCSC"/>
+                <RUN data_block_name="81NNWABXX" read_group_label="2873847338" refname="f111fbfb-a491-45bc-ae07-d6abe0950bb2" refcenter="UCSC"/>
+                <RUN data_block_name="81NNWABXX" read_group_label="2873848244" refname="5f13c94e-650f-47ff-82c2-08fc5a4c0e25" refcenter="UCSC"/>
+                <RUN data_block_name="81N9BABXX" read_group_label="2874009645" refname="6b3429bf-7dd1-46fd-a9da-6cae8190988b" refcenter="UCSC"/>
+                <RUN data_block_name="81N9BABXX" read_group_label="2874009647" refname="35ff0645-26f6-43bd-90e1-740c964a8ae1" refcenter="UCSC"/>
+                <RUN data_block_name="81P6TABXX" read_group_label="2874286344" refname="b65f8a42-0db5-46a0-bfda-a6092ef04ba3" refcenter="UCSC"/>
+                <RUN data_block_name="81P6TABXX" read_group_label="2874309693" refname="a3bc6d5d-5d88-4645-bd96-c1222ee4f125" refcenter="UCSC"/>
+                <RUN data_block_name="81N74ABXX" read_group_label="2874419140" refname="2cb330d8-ad24-4513-ae54-a637fdbb5544" refcenter="UCSC"/>
+                <RUN data_block_name="81N74ABXX" read_group_label="2874427813" refname="b9413217-d1a9-495b-9bf3-d71bbfe87df2" refcenter="UCSC"/>
+                <RUN data_block_name="81N74ABXX" read_group_label="2874433744" refname="db2acc58-cf01-4dc0-a7b1-2476b925f3ff" refcenter="UCSC"/>
+                <RUN data_block_name="81N74ABXX" read_group_label="2874435982" refname="e2828b09-720d-4cc7-8051-550c8982db33" refcenter="UCSC"/>
+              </RUN_LABELS>
+              <SEQ_LABELS>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000001.10" seq_label="1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000002.11" seq_label="2"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000003.11" seq_label="3"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000004.11" seq_label="4"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000005.9" seq_label="5"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000006.11" seq_label="6"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000007.13" seq_label="7"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000008.10" seq_label="8"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000009.11" seq_label="9"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000010.10" seq_label="10"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000011.9" seq_label="11"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000012.11" seq_label="12"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000013.10" seq_label="13"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000014.8" seq_label="14"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000015.9" seq_label="15"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000016.9" seq_label="16"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000017.10" seq_label="17"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000018.9" seq_label="18"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000019.9" seq_label="19"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000020.10" seq_label="20"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000021.8" seq_label="21"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000022.10" seq_label="22"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000023.10" seq_label="X"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_000024.9" seq_label="Y"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_012920" seq_label="MT"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000207.1" seq_label="GL000207.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000226.1" seq_label="GL000226.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000229.1" seq_label="GL000229.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000231.1" seq_label="GL000231.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000210.1" seq_label="GL000210.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000239.1" seq_label="GL000239.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000235.1" seq_label="GL000235.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000201.1" seq_label="GL000201.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000247.1" seq_label="GL000247.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000245.1" seq_label="GL000245.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000197.1" seq_label="GL000197.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000203.1" seq_label="GL000203.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000246.1" seq_label="GL000246.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000249.1" seq_label="GL000249.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000196.1" seq_label="GL000196.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000248.1" seq_label="GL000248.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000244.1" seq_label="GL000244.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000238.1" seq_label="GL000238.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000202.1" seq_label="GL000202.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000234.1" seq_label="GL000234.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000232.1" seq_label="GL000232.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000206.1" seq_label="GL000206.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000240.1" seq_label="GL000240.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000236.1" seq_label="GL000236.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000241.1" seq_label="GL000241.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000243.1" seq_label="GL000243.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000242.1" seq_label="GL000242.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000230.1" seq_label="GL000230.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000237.1" seq_label="GL000237.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000233.1" seq_label="GL000233.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000204.1" seq_label="GL000204.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000198.1" seq_label="GL000198.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000208.1" seq_label="GL000208.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000191.1" seq_label="GL000191.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000227.1" seq_label="GL000227.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000228.1" seq_label="GL000228.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000214.1" seq_label="GL000214.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000221.1" seq_label="GL000221.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000209.1" seq_label="GL000209.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000218.1" seq_label="GL000218.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000220.1" seq_label="GL000220.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000213.1" seq_label="GL000213.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000211.1" seq_label="GL000211.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000199.1" seq_label="GL000199.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000217.1" seq_label="GL000217.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000216.1" seq_label="GL000216.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000215.1" seq_label="GL000215.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000205.1" seq_label="GL000205.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000219.1" seq_label="GL000219.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000224.1" seq_label="GL000224.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000223.1" seq_label="GL000223.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000195.1" seq_label="GL000195.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000212.1" seq_label="GL000212.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000222.1" seq_label="GL000222.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000200.1" seq_label="GL000200.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000193.1" seq_label="GL000193.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000194.1" seq_label="GL000194.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000225.1" seq_label="GL000225.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="GL000192.1" seq_label="GL000192.1"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="NC_007605" seq_label="NC_007605"/>
+                <SEQUENCE data_block_name="97064332-1d4f-4571-93ff-354ffe6d7df9" accession="hs37d5" seq_label="hs37d5"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000001.10" seq_label="1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000002.11" seq_label="2"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000003.11" seq_label="3"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000004.11" seq_label="4"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000005.9" seq_label="5"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000006.11" seq_label="6"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000007.13" seq_label="7"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000008.10" seq_label="8"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000009.11" seq_label="9"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000010.10" seq_label="10"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000011.9" seq_label="11"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000012.11" seq_label="12"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000013.10" seq_label="13"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000014.8" seq_label="14"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000015.9" seq_label="15"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000016.9" seq_label="16"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000017.10" seq_label="17"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000018.9" seq_label="18"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000019.9" seq_label="19"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000020.10" seq_label="20"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000021.8" seq_label="21"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000022.10" seq_label="22"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000023.10" seq_label="X"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_000024.9" seq_label="Y"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_012920" seq_label="MT"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000207.1" seq_label="GL000207.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000226.1" seq_label="GL000226.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000229.1" seq_label="GL000229.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000231.1" seq_label="GL000231.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000210.1" seq_label="GL000210.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000239.1" seq_label="GL000239.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000235.1" seq_label="GL000235.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000201.1" seq_label="GL000201.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000247.1" seq_label="GL000247.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000245.1" seq_label="GL000245.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000197.1" seq_label="GL000197.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000203.1" seq_label="GL000203.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000246.1" seq_label="GL000246.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000249.1" seq_label="GL000249.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000196.1" seq_label="GL000196.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000248.1" seq_label="GL000248.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000244.1" seq_label="GL000244.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000238.1" seq_label="GL000238.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000202.1" seq_label="GL000202.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000234.1" seq_label="GL000234.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000232.1" seq_label="GL000232.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000206.1" seq_label="GL000206.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000240.1" seq_label="GL000240.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000236.1" seq_label="GL000236.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000241.1" seq_label="GL000241.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000243.1" seq_label="GL000243.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000242.1" seq_label="GL000242.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000230.1" seq_label="GL000230.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000237.1" seq_label="GL000237.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000233.1" seq_label="GL000233.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000204.1" seq_label="GL000204.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000198.1" seq_label="GL000198.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000208.1" seq_label="GL000208.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000191.1" seq_label="GL000191.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000227.1" seq_label="GL000227.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000228.1" seq_label="GL000228.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000214.1" seq_label="GL000214.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000221.1" seq_label="GL000221.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000209.1" seq_label="GL000209.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000218.1" seq_label="GL000218.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000220.1" seq_label="GL000220.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000213.1" seq_label="GL000213.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000211.1" seq_label="GL000211.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000199.1" seq_label="GL000199.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000217.1" seq_label="GL000217.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000216.1" seq_label="GL000216.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000215.1" seq_label="GL000215.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000205.1" seq_label="GL000205.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000219.1" seq_label="GL000219.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000224.1" seq_label="GL000224.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000223.1" seq_label="GL000223.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000195.1" seq_label="GL000195.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000212.1" seq_label="GL000212.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000222.1" seq_label="GL000222.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000200.1" seq_label="GL000200.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000193.1" seq_label="GL000193.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000194.1" seq_label="GL000194.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000225.1" seq_label="GL000225.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="GL000192.1" seq_label="GL000192.1"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="NC_007605" seq_label="NC_007605"/>
+                <SEQUENCE data_block_name="b7759c1c-44ba-4c57-a975-c98eed1a9c76" accession="hs37d5" seq_label="hs37d5"/>
+              </SEQ_LABELS>
+              <PROCESSING>
+                <PIPELINE>
+                  <PIPE_SECTION section_name="SeqWare_1.1.0-alpha.4">
+                    <STEP_INDEX>1</STEP_INDEX>
+                    <PREV_STEP_INDEX>NIL</PREV_STEP_INDEX>
+                    <PROGRAM>OxoGWorkflow-variantbam</PROGRAM>
+                    <VERSION>3.0.2</VERSION>
+                    <NOTES/>
+                  </PIPE_SECTION>
+                </PIPELINE>
+                <DIRECTIVES>
+                  <alignment_includes_unaligned_reads>true</alignment_includes_unaligned_reads>
+                  <alignment_marks_duplicate_reads>true</alignment_marks_duplicate_reads>
+                  <alignment_includes_failed_reads>false</alignment_includes_failed_reads>
+                </DIRECTIVES>
+              </PROCESSING>
+            </REFERENCE_ALIGNMENT>
+          </ANALYSIS_TYPE>
+          <TARGETS>
+            <TARGET sra_object_type="SAMPLE" refcenter="TCGA" refname="97064332-1d4f-4571-93ff-354ffe6d7df9"/>
+            <TARGET sra_object_type="SAMPLE" refcenter="TCGA" refname="b7759c1c-44ba-4c57-a975-c98eed1a9c76"/>
+          </TARGETS>
+          <DATA_BLOCK name="b7759c1c-44ba-4c57-a975-c98eed1a9c76">
+            <FILES>
+              <FILE filename="PCAWG.b43c9b79-be36-496a-8fa0-29ecdfa2d315_minibam.bam" filetype="bam" checksum_method="MD5" checksum="b6874baafd1ecd7ced9dd46a7ea129a5"/>
+              <FILE filename="PCAWG.b43c9b79-be36-496a-8fa0-29ecdfa2d315_minibam.bam.bai" filetype="bai" checksum_method="MD5" checksum="9d58c614777756a900142752c8fd8cc5"/>
+              <FILE filename="PCAWG.04d09fee-cfda-4d8a-80fe-9ad96d8fefb2_minibam.bam" filetype="bam" checksum_method="MD5" checksum="8f7da64e693b4417178c300624a07bd9"/>
+              <FILE filename="PCAWG.04d09fee-cfda-4d8a-80fe-9ad96d8fefb2_minibam.bam.bai" filetype="bai" checksum_method="MD5" checksum="7e0f163182cb9a44a933e351546aaa25"/>
+            </FILES>
+          </DATA_BLOCK>
+          <ANALYSIS_ATTRIBUTES>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>STUDY</TAG>
+              <VALUE>PCAWG 2.0</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>original_analysis_id</TAG>
+              <VALUE>b43c9b79-be36-496a-8fa0-29ecdfa2d315</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>original_analysis_id</TAG>
+              <VALUE>04d09fee-cfda-4d8a-80fe-9ad96d8fefb2</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>alignment_workflow_version</TAG>
+              <VALUE>2.6.0</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>alignment_workflow_name</TAG>
+              <VALUE>Workflow_Bundle_BWA (UCSC Implementation)</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>submitter_donor_id</TAG>
+              <VALUE>6956473b-92e5-4069-a26b-b48e280e76f2</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>alignment_workflow_source_url</TAG>
+              <VALUE>https://github.com/kellrott/tcga_realign</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>dcc_project_code</TAG>
+              <VALUE>BRCA-US</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>alignment_workflow_bundle_url</TAG>
+              <VALUE>https://s3.amazonaws.com/oicr.workflow.bundles/released-bundles/Workflow_Bundle_BWA_2.6.0_SeqWare_1.0.15.zip</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_pipeline_input_info</TAG>
+              <VALUE>{"workflow_inputs":[{"attributes":{"submitter_specimen_id":"53ca1040-eca4-4aca-b437-eedeb89062d3","center_name":"UCSC","submitter_sample_id":"b7759c1c-44ba-4c57-a975-c98eed1a9c76","dcc_project_code":"BRCA-US","analysis_url":"https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisFull/a3fdb58b-0665-429b-8947-dff9fe6d55ba","submitter_donor_id":"6956473b-92e5-4069-a26b-b48e280e76f2","use_cntl":"N/A","analysis_id":"a3fdb58b-0665-429b-8947-dff9fe6d55ba","dcc_specimen_type":"Normal - blood derived","study_ref":"PCAWG 2.0"},"specimen":"b7759c1c-44ba-4c57-a975-c98eed1a9c76"},{"specimen":"97064332-1d4f-4571-93ff-354ffe6d7df9","attributes":{"use_cntl":"93b39b17-866d-4359-80a1-67610a02f679","analysis_id":"93b39b17-866d-4359-80a1-67610a02f679","dcc_specimen_type":"Primary tumour - solid tissue","study_ref":"PCAWG 2.0","submitter_donor_id":"6956473b-92e5-4069-a26b-b48e280e76f2","submitter_sample_id":"97064332-1d4f-4571-93ff-354ffe6d7df9","dcc_project_code":"BRCA-US","analysis_url":"https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisFull/93b39b17-866d-4359-80a1-67610a02f679","submitter_specimen_id":"c94232f8-2e37-46d0-b12a-b8e920e659d9","center_name":"UCSC"}}]}</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_pipeline_output_info</TAG>
+              <VALUE>{"workflow_outputs":[{"attributes":{"study_ref":"PCAWG 2.0","dcc_specimen_type":"Normal - blood derived","analysis_id":"a3fdb58b-0665-429b-8947-dff9fe6d55ba","use_cntl":"N/A","submitter_donor_id":"6956473b-92e5-4069-a26b-b48e280e76f2","dcc_project_code":"BRCA-US","analysis_url":"https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisFull/a3fdb58b-0665-429b-8947-dff9fe6d55ba","submitter_sample_id":"b7759c1c-44ba-4c57-a975-c98eed1a9c76","center_name":"UCSC","submitter_specimen_id":"53ca1040-eca4-4aca-b437-eedeb89062d3"},"specimen":"b7759c1c-44ba-4c57-a975-c98eed1a9c76"},{"attributes":{"analysis_id":"93b39b17-866d-4359-80a1-67610a02f679","use_cntl":"93b39b17-866d-4359-80a1-67610a02f679","study_ref":"PCAWG 2.0","dcc_specimen_type":"Primary tumour - solid tissue","submitter_donor_id":"6956473b-92e5-4069-a26b-b48e280e76f2","submitter_sample_id":"97064332-1d4f-4571-93ff-354ffe6d7df9","dcc_project_code":"BRCA-US","analysis_url":"https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisFull/93b39b17-866d-4359-80a1-67610a02f679","submitter_specimen_id":"c94232f8-2e37-46d0-b12a-b8e920e659d9","center_name":"UCSC"},"specimen":"97064332-1d4f-4571-93ff-354ffe6d7df9"}]}</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_workflow_name</TAG>
+              <VALUE>OxoGWorkflow-variantbam</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_workflow_version</TAG>
+              <VALUE>3.0.2</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_workflow_source_url</TAG>
+              <VALUE>https://github.com/ICGC-TCGA-PanCancer/OxoGWrapperWorkflow</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_workflow_bundle_url</TAG>
+              <VALUE>https://github.com/ICGC-TCGA-PanCancer/OxoGWrapperWorkflow</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>vm_instance_type</TAG>
+              <VALUE>unknown</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>vm_instance_cores</TAG>
+              <VALUE>unknown</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>vm_instance_mem_gb</TAG>
+              <VALUE>unknown</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>vm_location_code</TAG>
+              <VALUE>unknown</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_qc_metrics</TAG>
+              <VALUE>{"qc_metrics":{}}</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+            <ANALYSIS_ATTRIBUTE>
+              <TAG>variant_timing_metrics</TAG>
+              <VALUE>{"timing_metrics":{}}</VALUE>
+            </ANALYSIS_ATTRIBUTE>
+          </ANALYSIS_ATTRIBUTES>
+        </ANALYSIS>
+      </ANALYSIS_SET>
+    </analysis_xml>
+    <experiment_xml>
+</experiment_xml>
+    <run_xml>
+</run_xml>
+    <analysis_detail_uri>https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisDetail/585b7376-60f1-11e6-bddd-d491889e5a25</analysis_detail_uri>
+    <analysis_submission_uri>https://gtrepo-osdc-tcga.annailabs.com/cghub/metadata/analysisSubmission/585b7376-60f1-11e6-bddd-d491889e5a25</analysis_submission_uri>
+    <analysis_data_uri>https://gtrepo-osdc-tcga.annailabs.com/cghub/data/analysis/download/585b7376-60f1-11e6-bddd-d491889e5a25</analysis_data_uri>
+  </Result>
+  <ResultSummary>
+    <downloadable_file_count>8</downloadable_file_count>
+    <downloadable_file_size units="GB">2.62</downloadable_file_size>
+    <state_count>
+      <live>1</live>
+    </state_count>
+  </ResultSummary>
+</ResultSet>
