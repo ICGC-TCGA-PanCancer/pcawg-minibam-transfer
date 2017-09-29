@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "64f65c8a-7119-11e6-b3d5-ddc29e8322fb", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "UCEC-US", 
     "submitter_donor_id": "fba80122-d8b2-4d8d-a032-9767e8160f9f"
 }

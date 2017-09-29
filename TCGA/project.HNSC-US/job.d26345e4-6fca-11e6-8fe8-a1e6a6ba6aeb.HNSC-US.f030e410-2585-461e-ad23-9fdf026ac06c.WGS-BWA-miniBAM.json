@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "d26345e4-6fca-11e6-8fe8-a1e6a6ba6aeb", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "HNSC-US", 
     "submitter_donor_id": "f030e410-2585-461e-ad23-9fdf026ac06c"
 }

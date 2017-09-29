@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "90e187d8-6c7e-11e6-b8b7-e3066073e58f", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "BRCA-US", 
     "submitter_donor_id": "359f12f9-5c41-48a4-85bc-fd7e307bf7d8"
 }

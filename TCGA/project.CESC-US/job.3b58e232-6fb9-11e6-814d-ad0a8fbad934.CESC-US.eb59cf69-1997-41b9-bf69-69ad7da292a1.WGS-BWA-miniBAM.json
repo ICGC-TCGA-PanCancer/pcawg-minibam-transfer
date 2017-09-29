@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "3b58e232-6fb9-11e6-814d-ad0a8fbad934", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "CESC-US", 
     "submitter_donor_id": "eb59cf69-1997-41b9-bf69-69ad7da292a1"
 }

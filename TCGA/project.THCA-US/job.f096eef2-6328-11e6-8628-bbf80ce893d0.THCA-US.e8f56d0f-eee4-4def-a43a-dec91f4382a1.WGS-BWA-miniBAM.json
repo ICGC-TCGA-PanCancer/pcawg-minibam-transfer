@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "f096eef2-6328-11e6-8628-bbf80ce893d0", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "THCA-US", 
     "submitter_donor_id": "e8f56d0f-eee4-4def-a43a-dec91f4382a1"
 }

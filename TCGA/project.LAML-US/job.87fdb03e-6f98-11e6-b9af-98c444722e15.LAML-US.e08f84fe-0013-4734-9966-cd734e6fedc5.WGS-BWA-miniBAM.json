@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "87fdb03e-6f98-11e6-b9af-98c444722e15", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "LAML-US", 
     "submitter_donor_id": "e08f84fe-0013-4734-9966-cd734e6fedc5"
 }

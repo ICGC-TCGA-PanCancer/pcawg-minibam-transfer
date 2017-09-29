@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "20300ad2-7958-11e6-8600-fff1bb6cd5a4", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "PRAD-US", 
     "submitter_donor_id": "10fbe481-f111-4f88-ae45-4d67cb265567"
 }

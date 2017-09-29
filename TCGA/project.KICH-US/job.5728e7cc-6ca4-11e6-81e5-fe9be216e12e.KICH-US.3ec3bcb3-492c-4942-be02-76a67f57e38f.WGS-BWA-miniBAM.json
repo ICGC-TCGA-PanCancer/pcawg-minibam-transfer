@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "5728e7cc-6ca4-11e6-81e5-fe9be216e12e", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "KICH-US", 
     "submitter_donor_id": "3ec3bcb3-492c-4942-be02-76a67f57e38f"
 }

@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "4ea2104a-7a07-11e6-8e97-db7008ce30ed", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "SARC-US", 
     "submitter_donor_id": "f75d2589-fd7b-49a1-a1c8-0b4726b81f3c"
 }

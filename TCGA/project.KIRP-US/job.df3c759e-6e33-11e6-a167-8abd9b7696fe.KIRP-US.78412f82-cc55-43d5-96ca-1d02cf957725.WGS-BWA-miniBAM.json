@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "df3c759e-6e33-11e6-a167-8abd9b7696fe", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "KIRP-US", 
     "submitter_donor_id": "78412f82-cc55-43d5-96ca-1d02cf957725"
 }

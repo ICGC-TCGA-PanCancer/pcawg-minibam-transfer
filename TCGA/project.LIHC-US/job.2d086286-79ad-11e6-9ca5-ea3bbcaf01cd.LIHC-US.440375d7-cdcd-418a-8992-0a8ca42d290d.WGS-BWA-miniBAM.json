@@ -34,7 +34,7 @@
         }
     ], 
     "gnos_id": "2d086286-79ad-11e6-9ca5-ea3bbcaf01cd", 
-    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "gnos_repo": "https://gtrepo-osdc-tcga.annailabs.com/", 
     "project_code": "LIHC-US", 
     "submitter_donor_id": "440375d7-cdcd-418a-8992-0a8ca42d290d"
 }
