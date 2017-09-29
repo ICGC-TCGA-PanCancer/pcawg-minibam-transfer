@@ -1,0 +1,40 @@
+{
+    "aliquot_id": "93ff786e-0165-4b02-8d27-806d422e93fc", 
+    "data_type": "WGS-BWA-miniBAM", 
+    "files": [
+        {
+            "file_md5sum": "5a87178444ecf77e5a74fc7e77caac8d", 
+            "file_name": "PCAWG.7e39e79a-7e20-4c7f-87f3-577806f42a04_minibam.bam", 
+            "file_size": 9536181542, 
+            "object_id": "00cd60ac-b83d-507d-8882-8d661b22bea2"
+        }, 
+        {
+            "file_md5sum": "d29275bda4128a6eb05408dee3b8e839", 
+            "file_name": "PCAWG.7e39e79a-7e20-4c7f-87f3-577806f42a04_minibam.bam.bai", 
+            "file_size": 7020176, 
+            "object_id": "8b93d016-9bea-50bb-83ed-03aeced6b75e"
+        }, 
+        {
+            "file_md5sum": "173a8790588e0e64dba026cd7ccaeabe", 
+            "file_name": "PCAWG.e72c727c-557e-424d-b045-3562a5a0f9c6_minibam.bam", 
+            "file_size": 17165919406, 
+            "object_id": "015da0e3-77fc-5432-afcd-5f0a590c8196"
+        }, 
+        {
+            "file_md5sum": "a7c9ffbfe50ed3dfbdd60d1c8311b10c", 
+            "file_name": "PCAWG.e72c727c-557e-424d-b045-3562a5a0f9c6_minibam.bam.bai", 
+            "file_size": 7020272, 
+            "object_id": "5e11af3f-a5b8-5c1d-a37a-ab7644d3e1aa"
+        }, 
+        {
+            "file_md5sum": "f915501945449435859b18b44b4b8ac1", 
+            "file_name": "721e1bd2-7f0b-11e6-9e99-cf4390ce561c.xml", 
+            "file_size": 35973, 
+            "object_id": "e521e02c-1ba4-5c0c-88c3-79e46a2a5884"
+        }
+    ], 
+    "gnos_id": "721e1bd2-7f0b-11e6-9e99-cf4390ce561c", 
+    "gnos_repo": "https://gtrepo-bsc.annailabs.com/", 
+    "project_code": "COAD-US", 
+    "submitter_donor_id": "33e989b9-fac4-47d8-b429-269044ac772a"
+}
